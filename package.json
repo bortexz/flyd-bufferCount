@@ -1,0 +1,33 @@
+{
+  "name": "flyd-buffercount",
+  "version": "0.1.0",
+  "description": "bufferCount implementation for flyd streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertofer/flyd-bufferCount.git"
+  },
+  "keywords": [
+    "flyd",
+    "streams",
+    "buffer",
+    "bufferCount",
+    "combine"
+  ],
+  "author": "Alberto Fernandez (Bertofer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bertofer/flyd-bufferCount/issues"
+  },
+  "homepage": "https://github.com/bertofer/flyd-bufferCount#readme",
+  "dependencies": {
+    "flyd": "^0.2.4"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.2.0"
+  }
+}
